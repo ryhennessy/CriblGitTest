@@ -6,5 +6,5 @@ git:
   authType: ssh
   autoAction: none
   timeout: 60000
-  strictHostKeyChecking: true
+  strictHostKeyChecking: false
   remote: git@github.com:ryhennessy/CriblGitTest.git
