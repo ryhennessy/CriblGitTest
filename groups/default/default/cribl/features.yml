@@ -1,0 +1,170 @@
+# 
+# This is the master list of configurable features in the product.
+# By default, they are enabled unless the `disabled` option is set to `true`.
+#
+
+# apis
+api/leader/resiliency:
+  disabled: false
+
+# collectors
+collector/filesystem:
+  disabled: false
+
+collector/script:
+  disabled: false
+
+# cache
+cache/git:
+  disabled: false
+
+# destinations
+destination/filesystem:
+  disabled: false
+
+destination/filesystem/stagePath:
+  disabled: false
+
+# general features
+feature/persistent_queue:
+  disabled: false
+
+feature/custom_command:
+  disabled: false
+
+feature/leader_upgrade:
+  disabled: false
+
+feature/delete_default_mapping:
+  disabled: false
+
+feature/managed_worker_groups:
+  disabled: true
+
+# functions
+function/tee:
+  disabled: false
+
+# metadata
+metadata/os:
+  disabled: false
+
+metadata/aws:
+  disabled: false
+
+metadata/env:
+  disabled: false
+
+metadata/kube:
+  disabled: false
+
+# modes
+mode/master:
+  disabled: false
+
+mode/single:
+  disabled: false
+
+mode/worker:
+  disabled: false
+
+mode/edge:
+  disabled: false
+
+mode/managed-edge:
+  disabled: false
+
+# packs
+pack/custom_function:
+  disabled: false
+
+# settings
+settings/auth:
+  disabled: false
+
+settings/api/endpoint:
+  disabled: false
+
+settings/limits/metrics_directory:
+  disabled: false
+
+settings/logging-controls:
+  disabled: false
+
+settings/api/tls:
+  disabled: false
+
+settings/system/intercom:
+  disabled: false
+
+settings/limits/services_limits:
+  disabled: false
+
+settings/service_processes:
+  disabled: false
+
+# sources
+source/cribl:
+  disabled: false
+
+source/criblmetrics:
+  disabled: false
+
+source/exec:
+  disabled: false
+
+source/file:
+  disabled: false
+
+source/system_metrics:
+  disabled: false
+
+source/system_state:
+  disabled: false
+
+source/kube_metrics:
+  disabled: false
+
+source/kube_logs:
+  disabled: false
+
+source/kube_events:
+  disabled: false
+
+source/windows_metrics:
+  disabled: false
+
+source/win_event_logs:
+  disabled: false
+
+source/appscope:
+  disabled: false
+  
+source/appscope/filter:
+  disabled: false
+  
+source/appscope/persistence:
+  disabled: false
+
+source/journal_files:
+  disabled: false
+
+source/edge_prometheus:
+  disabled: false
+
+# system
+system/diagnostics:
+  disabled: false
+
+system/roles:
+  disabled: false
+
+system/users:
+  disabled: false
+
+service/lease_renew:
+  disabled: false
+
+# monitoring
+monitoring/licensing:
+  disabled: false
