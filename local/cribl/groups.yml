@@ -6,3 +6,8 @@ default_fleet:
   description: Default Fleet
   tags: default
   isFleet: true
+TestGroup:
+  isFleet: false
+  workerRemoteAccess: false
+  isSearch: false
+  configVersion: 85df258
