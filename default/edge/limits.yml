@@ -1,0 +1,6 @@
+eventsMetadataSources:
+  - os
+  - cribl
+  - aws
+  - env
+  - kube
