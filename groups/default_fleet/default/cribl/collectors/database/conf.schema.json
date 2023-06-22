@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "title": "",
+  "required": ["connectionId", "query"],
+  "properties": {
+    "connectionId" : {
+      "type": "string",
+      "title": "Connection",
+      "description": "Select an existing Connection, or go to Knowledge > Database Connections to add one"
+    },
+    "query": {
+      "type": "string",
+      "title": "SQL Query",
+      "description": "An expression that resolves to the query string for selecting data from the database. Has access to the special ${earliest} and ${latest} variables, which will resolve to the Collector run's start and end time.",
+      "minLength": 1,
+      "jsExpression": true
+    },
+    "defaultBreakers" : {
+      "type": "string",
+      "title": "Hidden Default Breakers",
+      "enum": ["Cribl"]
+    }
+  }
+}
