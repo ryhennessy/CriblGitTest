@@ -1,0 +1,17 @@
+{
+  "query": {
+    "ui:placeholder": "Enter query expression",
+    "ui:widget": "JsInputWithoutPopup",
+    "ui:options": {
+      "numLines": 2
+    }
+  },
+  "connectionId": {
+    "ui:widget": "ApiLookup",
+    "ui:options": {
+      "typeName": "text secret",
+      "url": "/lib/database-connections",
+      "valueProp": "id"
+    }
+  }
+}
